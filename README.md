@@ -84,20 +84,18 @@ House-Price-Prediction/
 │
 ├── README.md
 │
-├── data/
-│   └── housing.csv
+├── static/
+│   └── styles.css
 │
-├── notebooks/
-│   └── House_Price_Prediction.ipynb
+├── templates/
+│   └── index.html
+    └── result.html
 │
-├── src/
-│   ├── data_preprocessing.py
-│   ├── data_visualization.py
-│   ├── model_evaluation.py
-│   └── model_training.py
-│
-└── models/
-    └── best_model.pkl
+│── app.py
+│── best_model.pkl
+│── housing.csv
+│── predict(Final).ipynb
+└──
 ```
 
 ---
