@@ -13,6 +13,8 @@ This repository contains code for predicting house prices using machine learning
 5. [Model Training](#model-training)
 6. [Model Evaluation](#model-evaluation)
 7. [File Structure](#file-structure)
+8. [Contributors](#Contributors)
+
 
 ---
 
@@ -104,6 +106,8 @@ House-Price-Prediction/
 
 This documentation provides a comprehensive overview of the House Price Prediction project, detailing data processing steps, model training techniques, and evaluation metrics. Users can refer to the respective sections for a deeper understanding of the project workflow and implementation details.
 
----
+## Usage
+You can run the Jupyter Notebook here or clone the repository and execute the code locally.
 
-You can copy this documentation structure to your GitHub repository README.md file and expand upon each section as necessary.
+## Contributors
+A Syed Khwaja
