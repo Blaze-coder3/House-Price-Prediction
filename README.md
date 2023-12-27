@@ -62,6 +62,10 @@ This repository contains code for predicting house prices using machine learning
 - **Function**: `train_random_forest(X_train, y_train)`
   - Trains a Random Forest Regressor model using GridSearchCV for hyperparameter tuning.
 
+## Best_model.pkl
+- **WARNING:** `the file will be extracted automatically after model training`
+
+
 ---
 
 ## Model Evaluation <a name="model-evaluation"></a>
