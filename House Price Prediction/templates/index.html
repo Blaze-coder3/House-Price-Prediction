@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>House Price Prediction</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="size">Size of the house (sq ft):</label><br>
+                <input type="text" id="size" name="size"><br>
+            </div>
+            
+            <div class="form-group">
+                <label for="bedrooms">Number of bedrooms:</label><br>
+                <input type="text" id="bedrooms" name="bedrooms"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="bathrooms">Number of bathrooms:</label><br>
+                <input type="text" id="bathrooms" name="bathrooms"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="garage">Number of garage:</label><br>
+                <input type="text" id="garage" name="garage"><br>
+            </div>
+            
+            <!-- Add other input fields as required -->
+            
+            <input type="submit" value="Predict" class="btn-submit">
+        </form>
+    </div>
+</body>
+</html>
